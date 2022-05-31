@@ -1,6 +1,7 @@
-TRISB = 0x00; //all bits are initialized as output
-PORTB= 0x00; //by default all pin are LOW
-
+TRISB = 0x00; //all bits in Port B are initialized as output
+PORTB= 0x00; //by default all pins of Port B are LOW
+TRISC = 0x00; //all bits in  Port C are initialized as output
+PORTC= 0x00; //by default all pins of Port V are LOW
 while(1)
         {
         PORTB =0b00000001 ;//0x01;
