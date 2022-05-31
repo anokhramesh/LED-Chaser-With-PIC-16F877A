@@ -1,12 +1,13 @@
-//Blinking led with pic 16f84A
+//anokhautomation
+//16LED CHASER with pic 16f877A
 //set crystal frequency to 8 Mhz
-//Connect led to pin #6 of PIC16F84A
+//Connect LEDs to Port RB and RC (PIN #26 to 33) of PIC16F877A
 void main() {
 
-TRISB = 0x00; //all bits are initialized as output
-TRISC = 0x00;
-PORTB = 0x00; //by default all pin are LOW
-PORTC = 0x00;
+TRISB = 0x00; //all bits in port B are initialized as output
+TRISC = 0x00; //all bits in port C are initialized as output
+PORTB = 0x00; //by default all pins of portB are LOW
+PORTC = 0x00; //by default all pins of PortC are LOW
 while(1)
         {
         PORTB =0b00000001 ;//0x01;
