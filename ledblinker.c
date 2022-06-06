@@ -1,7 +1,7 @@
 /*
  * File:   ledblinker.c
- * Author: user
- *
+ * Author: Anokhautomation
+ * anokhramesh@gmail.com
  * Created on June 6, 2022, 12:44 PM
  */
 #include<stdio.h>
